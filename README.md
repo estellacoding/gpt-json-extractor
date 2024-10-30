@@ -34,6 +34,7 @@ gpt-json-extractor/
 ├── function_calling.py      # Function Calling 的資料提取邏輯
 ├── models.py                # 定義使用者資料模型
 ├── validate_format.py       # 電子郵件格式驗證函數
+├── .env                     # 環境變數檔案
 ├── requirements.txt
 └── README.md
 ```
