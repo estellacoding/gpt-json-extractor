@@ -30,12 +30,12 @@ OPENAI_API_KEY = <your OpenAI API key>
 ```
 gpt-json-extractor/
 ├── app.py                   # Streamlit 主應用程式
-├── json_schema.py           # JSON Schema 模式下的資料提取邏輯
-├── function_calling.py      # Function Calling 模式下的資料提取邏輯
-├── models.py                # 使用者資料模型定義
+├── json_schema.py           # JSON Schema 的資料提取邏輯
+├── function_calling.py      # Function Calling 的資料提取邏輯
+├── models.py                # 定義使用者資料模型
 ├── validate_format.py       # 電子郵件格式驗證函數
-├── requirements.txt         # 專案所需套件庫
-└── README.md                # 專案說明文件
+├── requirements.txt
+└── README.md
 ```
 
 # 執行程式
@@ -48,7 +48,7 @@ streamlit run app.py
 開啟瀏覽器，進入 http://localhost:8501，即可使用專案介面。
 
 ## 輸入資料
-選擇「JSON Schema」或「Function Calling」模式，並在輸入框中輸入訊息。點擊「Submit」按鈕，即可查看提取資料。
+選擇「JSON Schema」或「Function Calling」模式。在輸入框中輸入資料格式如下，點擊「Submit」按鈕，即可查看提取資料。
 ```
 我的名字是Stella，請用 stelladai1028@gmail.com 聯絡我，電話是0988999999
 ```
