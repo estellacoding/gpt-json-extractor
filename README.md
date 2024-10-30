@@ -46,7 +46,7 @@ streamlit run app.py
 ```
 
 ## 開啟瀏覽器
-開啟瀏覽器，進入 http://localhost:8501。
+開啟瀏覽器，進入 localhost:8501，即可使用專案介面。
 
 ## 輸入資料
 選擇「JSON Schema」或「Function Calling」模式。在輸入框中輸入資料(參考格式如下)，接著點擊「Submit」按鈕，即可查看所提取的資料。
