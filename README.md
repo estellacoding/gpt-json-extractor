@@ -48,7 +48,10 @@ streamlit run app.py
 開啟瀏覽器，進入 http://localhost:8501。
 
 ## 輸入資料
-選擇「JSON Schema」或「Function Calling」模式。在輸入框中輸入資料(參考格式如下)，點擊「Submit」按鈕，即可查看提取資料。
+選擇「JSON Schema」或「Function Calling」模式。在輸入框中輸入資料(參考格式如下)，接著點擊「Submit」按鈕，即可查看所提取的資料。
 ```
 我的名字是Stella，請用 stelladai1028@gmail.com 聯絡我，電話是0988999999
+```
+```
+Stella stelladai1028@gmail.com 0988999999
 ```
