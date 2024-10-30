@@ -1,6 +1,6 @@
 # JSON Extractor Using GPT
 
-OpenAI API 在 2024/8 右推出支援 [JSON 格式的輸出](https://openai.com/index/introducing-structured-outputs-in-the-api/)，此專案是用 OpenAI GPT-4o (`gpt-4o-2024-08-06`) 模型，可以自動從使用者的輸入中提取姓名、電子郵件和電話號碼等資訊。使用了 `Streamlit` 作為前端框架，並提供了 `JSON Schema` 和 `Function Calling` 兩種提取資料的方法。
+OpenAI API 在 2024/8 推出支援 [JSON 格式的輸出](https://openai.com/index/introducing-structured-outputs-in-the-api/)，所以此專案就是來實作 OpenAI GPT-4o (`gpt-4o-2024-08-06`) 模型，自動從使用者的輸入中提取姓名、電子郵件和電話號碼等資訊。使用了 `Streamlit` 作為前端框架，並提供了 `JSON Schema` 和 `Function Calling` 兩種提取資料的方法。
 
 # 主要功能
 - **資料提取模式**：支援 `JSON Schema` 和 `Function Calling` 兩種模式。
