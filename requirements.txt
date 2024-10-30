@@ -1,4 +1,4 @@
 openai
-pydantic
+pydantic[email]
 streamlit
 python-dotenv
