@@ -40,7 +40,7 @@ gpt-json-extractor/
 ```
 
 # 執行程式
-## 啟動 Streamlit 應用程式
+## 啟動 Streamlit
 ```
 streamlit run app.py
 ```
